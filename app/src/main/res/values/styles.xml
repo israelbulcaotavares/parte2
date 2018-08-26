@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MediumTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="MovieDetailLabel" parent="@style/MediumTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WatchlistButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/watchlist_button_height</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:paddingLeft">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+    </style>
+
+</resources>
